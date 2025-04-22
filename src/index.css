@@ -26,6 +26,7 @@ a {
   --color-error: #fa5252;
   --color-success: #51cf66;
   --color-warning: #fcc419;
+  --color-border: gray;
 
   /* Typography */
   --font-size-base: 1rem;
