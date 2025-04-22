@@ -1,4 +1,6 @@
 import styles from "./App.module.css";
+import Accordion from "./components/Accordion/Accordion";
+import AccordionItem from "./components/AccordionItem/AccordionItem";
 import Button from "./components/Button/Button";
 import Counter from "./components/Counter/Counter";
 import ErrorMessage from "./components/ErrorMessage/ErrorMessage";
@@ -16,7 +18,8 @@ const App = () => {
         errorMessage="First name is required"
       /> */}
       {/* <Spinner /> */}
-      <ErrorMessage message="Failed to fetch the data" errorLogo="❌"/>
+      {/* <ErrorMessage message="Failed to fetch the data" errorLogo="❌"/> */}
+      <Accordion />
     </div>
   );
 };
