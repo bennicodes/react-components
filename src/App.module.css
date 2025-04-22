@@ -1,7 +1,9 @@
 .rootContainer {
+  background-color: var(--color-background);
   width: 100%;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
